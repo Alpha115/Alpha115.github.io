@@ -1,2 +1,6 @@
-let myHeading=document.querySelector("h1");
-myHeading.textContent="Hello World!";
+const button=document.querySelector("button");
+
+button.onclick=function(){
+	let name=prompt("What is ur name?");
+	alert("Hello, "+name+", nice to meet you!");
+};
