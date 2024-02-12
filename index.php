@@ -1,3 +1,5 @@
+<? include("scripts/chatserver.php");?>
+
 <!DOCTYPE html>
 <html lang="kr">
 <head>
